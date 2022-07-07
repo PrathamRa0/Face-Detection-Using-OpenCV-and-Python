@@ -35,7 +35,7 @@ for root, dirs, files in os.walk(image_dir):
 
             pil_image = Image.open(path).convert("L") #This will convert images into grayscale
             #Resizing images for training
-            size = (550, 550)
+            size = (650, 650)
             final_image = pil_image.resize(size, Image.ANTIALIAS)
 
             image_array = np.array(final_image, "uint8")
