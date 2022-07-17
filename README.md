@@ -10,5 +10,4 @@ Learning to implement OpenCV and Python for Face detection and identification. T
 * OpenCV
 * OS module for files
 * Pickle
-
- flutter docker
+ 
